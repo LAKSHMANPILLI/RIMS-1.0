@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.project.testcases.Login_QATest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- com.project.testcases.Login_QATest -->
+      <class name="com.project.testcases.Logout_InTest">
+        <methods>
+          <include name="Logout_Test"/>
+          <include name="logout"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- com.project.testcases.Logout_InTest -->
+      <class name="com.project.testcases.Insurance_Test">
+        <methods>
+          <include name="insuClaimResolutionAddRemarks"/>
+          <include name="insuAttachDoc"/>
+          <include name="insuClaimResolutionApprove"/>
+          <include name="insuConfirmThird"/>
+          <include name="insuSurveyorSelectItem"/>
+          <include name="insuSurveyorClaimInspectionDate"/>
+          <include name="insuPendingLiquidSetDisposition"/>
+          <include name="insuSurveyorUpdateInfo"/>
+          <include name="insuSetDispositionLiquidation"/>
+          <include name="Insurance"/>
+          <include name="insuConfirmFirst"/>
+          <include name="insuClaimAmount"/>
+          <include name="insuPendingLiquidationAddRemarks"/>
+          <include name="insuConfirmFourth"/>
+          <include name="insuClaimResolutionApprovedAmount"/>
+          <include name="insuEnterCallLog"/>
+          <include name="insuAddRemarks"/>
+          <include name="insuConfirm5th"/>
+          <include name="insuAttachDocClaimresolution"/>
+          <include name="insuAttachDocInspection"/>
+          <include name="insuClaimSubmitionDate"/>
+          <include name="dispositionInsurance"/>
+          <include name="insuSelectItem"/>
+          <include name="insuClaimResolutionApprovelDate"/>
+          <include name="insuUpdateClaimCallLog"/>
+          <include name="insuAttachDocPendingLiqui"/>
+          <include name="insuPendingLiquidationSelectItem"/>
+          <include name="insuConfirmSecond"/>
+          <include name="insuUpdateCallSelectItem"/>
+          <include name="InsuSurveyorAddRemarks"/>
+        </methods>
+      </class> <!-- com.project.testcases.Insurance_Test -->
+      <class name="com.project.testcases.WarehouseManagement_Test">
+        <methods>
+          <include name="clickOnDispositionlinkTest"/>
+          <include name="dispositonBCL"/>
+        </methods>
+      </class> <!-- com.project.testcases.WarehouseManagement_Test -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

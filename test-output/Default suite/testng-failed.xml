@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.project.testcases.Insurance_Test">
+        <methods>
+          <include name="insuClaimResolutionAddRemarks"/>
+          <include name="insuAttachDoc"/>
+          <include name="insuClaimResolutionApprove"/>
+          <include name="insuConfirmThird"/>
+          <include name="insuSurveyorClaimInspectionDate"/>
+          <include name="insuSurveyorSelectItem"/>
+          <include name="insuPendingLiquidSetDisposition"/>
+          <include name="insuSurveyorUpdateInfo"/>
+          <include name="insuSetDispositionLiquidation"/>
+          <include name="Insurance"/>
+          <include name="insuConfirmFirst"/>
+          <include name="insuClaimAmount"/>
+          <include name="insuConfirmFourth"/>
+          <include name="insuClaimResolutionApprovedAmount"/>
+          <include name="insuEnterCallLog"/>
+          <include name="insuInPolicyRadio"/>
+          <include name="insuAddRemarks"/>
+          <include name="insuConfirm5th"/>
+          <include name="insuAttachDocClaimresolution"/>
+          <include name="insuAttachDocInspection"/>
+          <include name="insuClaimSubmitionDate"/>
+          <include name="insuSelectItem"/>
+          <include name="dispositionInsurance"/>
+          <include name="insuClaimResolutionApprovelDate"/>
+          <include name="insuUpdateClaimCallLog"/>
+          <include name="insuPendingLiquidationSelectItem"/>
+          <include name="insuConfirmSecond"/>
+          <include name="insuUpdateCallSelectItem"/>
+          <include name="InsuSurveyorAddRemarks"/>
+        </methods>
+      </class> <!-- com.project.testcases.Insurance_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
